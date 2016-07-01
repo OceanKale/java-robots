@@ -24,6 +24,7 @@ package robots.commands;
    In an effort to minimize the chances of the robot dying due to (2) above, 
    this class ensures that the bid is always non-zero. 
 */
+
 public abstract class Command {
 
     private int bid;
