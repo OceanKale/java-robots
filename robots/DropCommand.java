@@ -1,14 +1,13 @@
 package robots.commands;
 
 import robots.world.*;
-import robots.world.Package;
+import robots.world.Package; // ?
 import java.util.Iterator;
 
 /**
-  
-
-   A class that models a drop command.
+ * A class that models a drop command.
 */
+
 public class DropCommand extends Command {
 
     private PackageCollection packages;
