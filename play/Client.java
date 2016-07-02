@@ -36,7 +36,7 @@ public class Client {
                         hostname, port);
 
       /***********************************************************/
-      /* Here is where you would create a Game and then play it. */
+      /* Create a Game and then play it. */
       /***********************************************************/
       Scanner fromServer = new Scanner(socket.getInputStream());
       PrintWriter toServer = new PrintWriter(socket.getOutputStream(), true);
