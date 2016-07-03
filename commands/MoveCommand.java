@@ -3,7 +3,6 @@ package robots.commands;
 import robots.world.*;
 
 /**
-    
    This class models a move command.
 */
 public class MoveCommand extends Command {
