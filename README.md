@@ -6,3 +6,4 @@ TODO:
 - Cleanup
 - Add full lib
 - fix api stuff
+- javadocs
