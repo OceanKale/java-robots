@@ -20,7 +20,7 @@ public class Board {
     private int numRows;
        
   /**
-     Constructs the default 7 x 5 board represented by the following map:<br>
+     Constructs the default 7 x 5 board represented by the following map:
      <tt>
      .......<br>
      ...~~~~<br>
