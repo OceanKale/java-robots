@@ -7,3 +7,4 @@ TODO:
 - Add full lib
 - fix api stuff
 - javadocs
+- update for full desc
