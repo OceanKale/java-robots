@@ -25,15 +25,6 @@ public class BoardView extends JPanel {
   public void paintComponent(Graphics g) {
     super.paintComponent(g);
     Graphics2D g2 = (Graphics2D) g;
-    /*
-      The following try-catch block uses reflection to implement the call:
-      
-         board.paint((Graphics2D) g, getSize());
-
-      This is done so that this class will compile before the paint method
-      is implemented. We will replace the try-catch with the direct call
-      to Board.paint() in the next release.
-    */
     
     try {
       java.lang.reflect.Method paint =
