@@ -14,12 +14,8 @@ import java.util.regex.Pattern;
 
 /**
    Class Game plays one game. If the game is online, communication with the server occurs 
-   through a Scanner and PrintWriter. The state of an online game is captured in the following data structures:<br>
+   through a Scanner and PrintWriter. The state of an online game is captured in the following data structures:
 
-   * player: the player robot, initialized in the constructor from the data transmitted by the server.<br>
-   * board: the game board, initialized in the constructor from the data transmitted by the server.<br>
-   * allRobots: a collection of all robots in the game, implemented with a HashMap<Integer, Robot>, 
-   initialized in the constructor from the data transmitted by the server.
 */
 public class Game {
 
@@ -108,9 +104,9 @@ public class Game {
     }
 
     /**
-       Creates a GUI visualization for this game. <br>
+       Creates a GUI visualization for this game. 
 
-       Parameters:<br>
+       Parameters:
        delay - number of milliseconds between updates of the GUI
     */
     public void createGUI(int delay) {
@@ -137,14 +133,14 @@ public class Game {
     }
 
     /**
-       Process one round of the game, which consists of three steps.<br><br>
+       Process one round of the game, which consists of three steps.
 
        1. Server sends a PackageCollection that describes all packages at the player's current location. 
-       This collection is stored in the board.<br>
+       This collection is stored in the board.
        2. Client uses the installed robot brain to decide on a next command for the player robot and then 
-       sends the selected command to the server.<br>
+       sends the selected command to the server.
        3. Server sends an update response. The information in the response is extracted and incorporated 
-       into the client's data structures.<br><br>
+       into the client's data structures.
 
        Does nothing if the game is not online. 
     */
