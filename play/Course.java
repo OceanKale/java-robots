@@ -43,9 +43,9 @@ public class Course {
        Computes the shortest path connecting the two endpoints and returns it as a list 
        of board tiles. The lead element in the path is here and the last element is there. 
        Utilizes a breadth-first search algorithm that grows a blob, uniformly radiating 
-       out from the starting point, until the ending point is subsumed.<br><br>
+       out from the starting point, until the ending point is subsumed.
 
-       Throws:<br>
+       Throws:
        NoSafePathException - if there is no safe path connecting endpoints
     */
     public ArrayList<Tile> plot() throws NoSafePathException {
