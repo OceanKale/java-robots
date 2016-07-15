@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 /**
-    This class manages the potential targets for a PlottingBrain, 
+    This class manages the potential targets for a brain, 
    and maintains the currently locked target. 
 */
 
