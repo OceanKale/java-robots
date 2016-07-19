@@ -13,8 +13,8 @@ import java.util.ArrayList;
 /**
   
 
-   This class represents the player's robot. Two differences between instances of this class 
-   and instances of the parent class are the Color returned by getColor() and a slight variation 
+   This class represents the player's robot. Differences between instances of this class 
+   and instances of the parent class are the Color returned by getColor() and
    in the String returned by toString(). 
 */
 public class PlayerRobot extends Robot {
