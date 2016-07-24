@@ -10,3 +10,5 @@ TODO:
 - update for full desc
 - various robot brains
 - server-side
+- fix tile
+- make
