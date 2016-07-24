@@ -12,3 +12,4 @@ TODO:
 - server-side
 - fix tile
 - make
+- finish maps
