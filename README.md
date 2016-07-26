@@ -11,5 +11,4 @@ TODO:
 - various robot brains
 - server-side
 - fix tile
-- make
 - finish maps
