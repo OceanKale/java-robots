@@ -5,9 +5,6 @@ import java.awt.Color;
 
 
 /**
-
-
-
    Class NormalTile represents a normal tile on the 
    playing board.
 */
