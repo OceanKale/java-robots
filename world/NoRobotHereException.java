@@ -6,13 +6,11 @@ package robots.world;
    that the invoking tile is not occupied by a robot.
    
 */
-
 public class NoRobotHereException extends RuntimeException {
 
   /**
      Constructs a NoRobotHereException
   */
-  
   public NoRobotHereException() {
     super("No robot on this tile.");
   }
