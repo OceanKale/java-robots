@@ -3,8 +3,6 @@ package robots.world;
 import java.util.Scanner;
 
 /**
-
-
    Class Package represents a package used for scoring points.
 */
 public class Package implements Comparable<Package> {
