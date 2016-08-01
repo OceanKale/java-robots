@@ -8,7 +8,6 @@ import java.net.ConnectException;
 /**
    Test the server connection.
 */
-
 public class Ping {
   
   /**
@@ -37,9 +36,7 @@ public class Ping {
     }
     catch (ConnectException e) {
       System.err.printf("%nRobots server is not responding. " +
-                        "Try again in a few minutes.%n" +
-                        "Post a note on the message board if the " +
-                        "situation persists.%n%n");
+                        "Try again in a few minutes.%n");
     }
     catch (IOException e) {
       System.out.printf("Unexpected IO exception...%n");
