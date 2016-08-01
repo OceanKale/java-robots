@@ -10,7 +10,6 @@ import java.util.Iterator;
     This class manages the potential targets for a brain, 
    and maintains the currently locked target. 
 */
-
 public class TargetChooser {
 
     private Game game;
@@ -150,7 +149,7 @@ public class TargetChooser {
        Identifies and returns the new target. If the player 
        robot is carrying one or more packages, then the new target
        is the closest destination of a package. 
-       Otherwise, the new target is the closest as-yet-unvisited home base. 
+       Otherwise, the new target is the closest as-yet unvisited home base. 
        If all home bases have been visited, then we start over and 
        lock in on the nearest base.
     */
